@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+	<link href="mystyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+      <p>Cruz, Roberto Home Work 2</p>
+    </header>
+    
+    <navigation>
+        <hr />
+            <table class="nav">
+                <td>
+                    <a href="index.html">Home</a> | 
+                    <a href="webform.html">Web form Demo</a> | 
+                    <a href="aboutme.html"> About Me</a>
+                </td>
+            </table>
+       <hr />
+    </navigation>
+        
+        <table class="main">
+            <tr>
+                <td>
+                    <h1>Welcome to my Web Form</h1>
+                    <h2>A demo form for hotel room reservation</h2>
+                    
+			  <form action="mailto:Roberto.k.cruz@gmail.com" method="post" enctype="text/plain" autocomplete="on">
+                        <fieldset>
+                            <legend>Customer Information
+                            </legend>
+                          Full Name<input type="text" id="CustInf" name="fullname" value="Firstname Lastname" autofocus required /> 
+                            <br />
+                            E-Mail:<input type="email" id="CustInf" name="UserEmail" required />
+                            <br />
+                            Phone Number:<input type="tel" id="CustInf" name="Usertelephone" required />
+                        </fieldset> 
+                        
+                        <br />
+                        
+                        <fieldset>
+                        	<legend>Room Information
+                        	</legend>
+                        	Arrival Date: <input type="date" id="RoomInf" name="ArrivalDate" required />
+                            <br />
+                            Arrival Time: <input type="time" id="RoomInf" name="ArrivalTime" required />
+                         	<br />
+                           Selerct a room Type:<select id="RoomInf" name="list" id="list" required />
+                                                    <option>Luxury
+                                                    <option>Standard
+                                                    <option>Economic
+                                        		</select> 
+                           	<br />
+                            Number of Nights (1-30): <input type="number" id="RoomInf" name="NNights" min="1" max="30" required />
+                            <br />
+                            Number of Guests (0-3): <input type="number" id="RoomInf" name="NGuest" min="0" max="3" required />
+                </fieldset> 
+                        
+                        <br />
+                        
+                      <fieldset>
+                            <legend>Other Information</legend>
+                            PromoCode<input type="text" id="OtherInf" name="PromoCode" value="" pattern="[A-Za-z0-9]{3}"/> 
+                             <br />
+                           Special Note:
+                   <textarea name="Special Note:" id="OtherInf" 	rows="5" cols="40" />
+                                Enter your Special Notes here
+                            </textarea>
+        
+                        </fieldset> 
+   			    <input type="reset" value="Clear Form" /> 
+         			 | <input type="submit" Value="Request Reservation" />
+   			 </form>
+                </td>
+            </tr>
+        </table>
+            
+    <footer>
+        <hr />
+        <table class="foot">
+            <td>
+                <p>Contact Information
+                <br />
+                <a href="mailto:Robeto.k.cruz@gmail.com">Roberto.k.cruz@gmail.com</a>
+                <br />
+                Phone: (562) 546-2789</p>
+            </td>
+        </table>
+        <hr />
+    </footer>
+</body>
+</html>
