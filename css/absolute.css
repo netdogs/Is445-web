@@ -1,8 +1,11 @@
 ﻿body
 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
 aside {
     position: absolute;
-    right: 5%;
+    left: 720px;
     top: 60px;
 }
