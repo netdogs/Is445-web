@@ -11,7 +11,7 @@
     <div>
     
         <h1>A Demo of Wizard Server Control</h1>
-        <asp:Wizard ID="Wizard1" runat="server" ActiveStepIndex="2" OnFinishButtonClick="Wizard1_FinishButtonClick">
+        <asp:Wizard ID="Wizard1" runat="server" ActiveStepIndex="0" OnFinishButtonClick="Wizard1_FinishButtonClick">
             <WizardSteps>
                 <asp:WizardStep runat="server" title="User Information">
                     &nbsp;Name:
