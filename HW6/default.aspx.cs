@@ -14,7 +14,6 @@ namespace HW6
         protected void Wizard1_FinishButtonClick(object sender, WizardNavigationEventArgs e)
         {
             LBLName.Text = TXBoxName.Text;
-            LBLCCNum.Text = Address.Text;
             LBLCCType.Text = DDListCCType.Text;
             LBLExpDate.Text = CExpiration.SelectedDate.ToString();
         }

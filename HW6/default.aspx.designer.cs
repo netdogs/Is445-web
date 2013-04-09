@@ -85,15 +85,6 @@ namespace HW6 {
         protected global::System.Web.UI.WebControls.Label LBLName;
         
         /// <summary>
-        /// LBLCCNum control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LBLCCNum;
-        
-        /// <summary>
         /// LBLCCType control.
         /// </summary>
         /// <remarks>

@@ -11,7 +11,7 @@
     <div>
     
         <h1>A Demo of Wizard Server Control</h1>
-        <asp:Wizard ID="Wizard1" runat="server" ActiveStepIndex="0" OnFinishButtonClick="Wizard1_FinishButtonClick">
+        <asp:Wizard ID="Wizard1" runat="server" ActiveStepIndex="2" OnFinishButtonClick="Wizard1_FinishButtonClick">
             <WizardSteps>
                 <asp:WizardStep runat="server" title="User Information">
                     &nbsp;Name:
@@ -34,9 +34,6 @@
                 </asp:WizardStep>
                 <asp:WizardStep runat="server" StepType="Complete" Title="Done">
                     Sumary of Input<br />User Name:<asp:Label ID="LBLName" runat="server" Text="User Name"></asp:Label>
-                    <br />
-                    Credit Card Number:
-                    <asp:Label ID="LBLCCNum" runat="server" Text="Label"></asp:Label>
                     <br />
                     Credit Card Type:
                     <asp:Label ID="LBLCCType" runat="server" Text="Credit Card #"></asp:Label>
