@@ -18,9 +18,9 @@
         <hr />
 	<div>
 	<ul>
-        	<li><a href="aboutme.html"> About Me</a></li>        	
-        	<li><a href="webform.html">Form</a></li>
-		<li><a href="index.html">Home</a></li>
+        	<li><a href="aboutme.aspx"> About Me</a></li>        	
+        	<li><a href="webform.aspx">Form</a></li>
+		<li><a href="default.aspx">Home</a></li>
 
 	</ul>
 	</div>

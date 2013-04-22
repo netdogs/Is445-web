@@ -84,7 +84,7 @@
     <Content Include="aboutme\Robertospic.jpg" />
     <Content Include="CSS\StyleSheet.css" />
     <Content Include="Web.config" />
-    <Content Include="index.aspx" />
+    <Content Include="default.aspx" />
     <Content Include="aboutme.aspx" />
     <Content Include="webform.aspx" />
   </ItemGroup>
@@ -115,11 +115,11 @@
       <DependentUpon>Hw7.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="index.aspx.designer.vb">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="index.aspx.vb">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="aboutme.aspx.designer.vb">
