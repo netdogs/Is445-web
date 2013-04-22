@@ -1,0 +1,8 @@
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW 6\HW 6\bin\HW 6.dll
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW 6\HW 6\bin\HW 6.pdb
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW 6\HW 6\bin\HW 6.xml
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW 6\HW 6\obj\Debug\HW_6.Resources.resources
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW 6\HW 6\obj\Debug\HW 6.vbproj.GenerateResource.Cache
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW 6\HW 6\obj\Debug\HW 6.dll
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW 6\HW 6\obj\Debug\HW 6.xml
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW 6\HW 6\obj\Debug\HW 6.pdb
