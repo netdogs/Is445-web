@@ -1,0 +1,16 @@
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW7\HW7\bin\HW7.dll
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW7\HW7\bin\HW7.pdb
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW7\HW7\bin\HW7.xml
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW7\HW7\obj\Debug\HW7.Resources.resources
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW7\HW7\obj\Debug\HW7.vbproj.GenerateResource.Cache
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW7\HW7\obj\Debug\HW7.dll
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW7\HW7\obj\Debug\HW7.xml
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW7\HW7\obj\Debug\HW7.pdb
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW7\bin\HW7.dll
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW7\bin\HW7.pdb
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW7\bin\HW7.xml
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW7\obj\Debug\HW7.Resources.resources
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW7\obj\Debug\HW7.vbproj.GenerateResource.Cache
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW7\obj\Debug\HW7.dll
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW7\obj\Debug\HW7.xml
+C:\Users\Roberto\Documents\GitHub\Is445-web\HW7\obj\Debug\HW7.pdb
