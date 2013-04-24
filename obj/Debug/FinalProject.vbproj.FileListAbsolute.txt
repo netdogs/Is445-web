@@ -6,3 +6,11 @@ C:\Users\Roberto\Documents\GitHub\Is445-web\FinalProject\obj\Debug\FinalProject.
 C:\Users\Roberto\Documents\GitHub\Is445-web\FinalProject\obj\Debug\FinalProject.dll
 C:\Users\Roberto\Documents\GitHub\Is445-web\FinalProject\obj\Debug\FinalProject.xml
 C:\Users\Roberto\Documents\GitHub\Is445-web\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\Roberto\Documents\GitHub\Is445-web\bin\FinalProject.dll
+C:\Users\Roberto\Documents\GitHub\Is445-web\bin\FinalProject.pdb
+C:\Users\Roberto\Documents\GitHub\Is445-web\bin\FinalProject.xml
+C:\Users\Roberto\Documents\GitHub\Is445-web\obj\Debug\FinalProject.Resources.resources
+C:\Users\Roberto\Documents\GitHub\Is445-web\obj\Debug\FinalProject.vbproj.GenerateResource.Cache
+C:\Users\Roberto\Documents\GitHub\Is445-web\obj\Debug\FinalProject.dll
+C:\Users\Roberto\Documents\GitHub\Is445-web\obj\Debug\FinalProject.xml
+C:\Users\Roberto\Documents\GitHub\Is445-web\obj\Debug\FinalProject.pdb

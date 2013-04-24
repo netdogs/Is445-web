@@ -3,28 +3,39 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
-</head>
+    <head runat="server">
+        <title></title>
+        <link href="css/StyleSheet.css" rel="stylesheet" />
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
 <body>       
-
     <form id="form1" runat="server">
     <header>
         <h1>
-                Roberto Cruz ASP.NET Website in Windows Azure</h1></header>
-        <nav>
-            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource" DisappearAfter="1000" DynamicEnableDefaultPopOutImage="False">
-                <DynamicMenuStyle HorizontalPadding="10px" />
-            </asp:Menu>
-        </nav>           
-        <div ID="sidenav">
-                <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource">
-                </asp:TreeView>
-                <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" />
-        </div>
-    <div>
+                Roberto Cruz ASP.NET Website in Windows Azure
+        </h1>
+    </header>
+    <nav>
+        <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" DataSourceID="SiteMapDataSource" StaticDisplayLevels="2" ClientIDMode="Static" StaticEnableDefaultPopOutImage="False" >
+            <DynamicHoverStyle BorderColor="#FF0066" />
+            <DynamicMenuItemStyle BackColor="Gray" CssClass="MainMenuItemStyle" />
+            <StaticMenuItemStyle CssClass="staticMenu" />
+        </asp:Menu>
+    </nav>           
+    <div class="sidenav">
+            <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource" ShowStartingNode="False">
+            </asp:TreeView>
+            <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" />
+    </div>
+    <div class="content">
+
+        <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+            <CurrentNodeStyle ForeColor="Black" />
+            <NodeStyle ForeColor="Black" />
+            <PathSeparatorStyle ForeColor="Black" />
+            <RootNodeStyle ForeColor="Black" />
+        </asp:SiteMapPath>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">         
         
         </asp:ContentPlaceHolder>

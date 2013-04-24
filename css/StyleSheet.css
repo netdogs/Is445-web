@@ -1,2 +1,52 @@
 ﻿body {
+    width:1024px;
+      margin:0 auto;
+      padding:0;
+      background-color:white;
+}
+header h1 {
+    text-align: center;
+}
+
+/* navigation*/
+nav {
+background-color: gray;
+}
+
+    nav div ul li {
+        float: left;
+        background-color: gray;
+        width:inherit;
+    }
+
+
+
+    nav div ul li a:visited, nav div ul li a:link {
+        color: white;
+    }
+
+    nav div ul li a {
+        background-color: gray;
+    }
+
+nav div ul li.menuitem {
+    clear: both;
+}
+
+nav div ul li:nth-child(1){
+    display: none
+}
+
+div.sidenav {
+    width:200px;
+    float: left;
+    background-color:lightgray;
+}
+
+div.content {
+    width: 824px;
+    height:auto;
+    float: right;
+    border:10px 10px;
+    background-color:white;
 }
