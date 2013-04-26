@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head runat="server">
         <title></title>
+        <link href="css/reset.css" rel="stylesheet" />
         <link href="css/StyleSheet.css" rel="stylesheet" />
         <asp:ContentPlaceHolder ID="head" runat="server">
         </asp:ContentPlaceHolder>
@@ -17,7 +18,10 @@
         </h1>
     </header>
     <nav>
-        <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" DataSourceID="SiteMapDataSource" StaticDisplayLevels="2" ClientIDMode="Static" StaticEnableDefaultPopOutImage="False" >
+        <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" StartingNode="false" DataSourceID="SiteMapDataSource" StaticEnableDefaultPopOutImage="False" Width="100px" >
+            <DataBindings>
+                <asp:MenuItemBinding DataMember="SiteMapNode" Depth="2" />
+            </DataBindings>
             <DynamicHoverStyle BorderColor="#FF0066" />
             <DynamicMenuItemStyle BackColor="Gray" CssClass="MainMenuItemStyle" />
             <StaticMenuItemStyle CssClass="staticMenu" />
@@ -29,16 +33,17 @@
             <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" />
     </div>
     <div class="content">
-
         <asp:SiteMapPath ID="SiteMapPath1" runat="server">
             <CurrentNodeStyle ForeColor="Black" />
             <NodeStyle ForeColor="Black" />
             <PathSeparatorStyle ForeColor="Black" />
             <RootNodeStyle ForeColor="Black" />
         </asp:SiteMapPath>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">         
+        <main>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">         
         
-        </asp:ContentPlaceHolder>
+            </asp:ContentPlaceHolder>
+        </main>
     </div>
     </form>
 </body>

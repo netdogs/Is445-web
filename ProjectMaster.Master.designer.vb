@@ -41,6 +41,15 @@ Partial Public Class ProjectMaster
     Protected WithEvents Menu1 As Global.System.Web.UI.WebControls.Menu
 
     '''<summary>
+    '''SiteMapDataSource1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents SiteMapDataSource1 As Global.System.Web.UI.WebControls.SiteMapDataSource
+
+    '''<summary>
     '''TreeView1 control.
     '''</summary>
     '''<remarks>

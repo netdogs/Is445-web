@@ -33,9 +33,12 @@ nav div ul li.menuitem {
     clear: both;
 }
 
+/*
 nav div ul li:nth-child(1){
     display: none
-}
+}*/
+
+
 
 div.sidenav {
     width:200px;
@@ -50,3 +53,30 @@ div.content {
     border:10px 10px;
     background-color:white;
 }
+/* Rest of the Stuff*/
+
+hr      
+	{
+	border: 0;
+	border-top: 8px solid #C0C0C0;
+	padding: 0;
+        }
+
+form {
+	border-style:outset;
+	border-color:green;
+	padding: 10px;
+	}
+
+h1, h2 {
+	text-align:center;
+}
+
+main img.profile{
+	float:left;
+	width:200px;
+	height:200px;
+}
+article {
+	width: 380px;
+	}

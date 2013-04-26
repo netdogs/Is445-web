@@ -81,11 +81,84 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About\Contact.aspx" />
+    <Content Include="About\Default.aspx" />
+    <Content Include="About\img\Robertospic.jpg" />
+    <Content Include="About\Resume.aspx" />
+    <Content Include="css\absolute.css" />
+    <Content Include="css\float.css" />
+    <Content Include="css\relative.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\static.css" />
     <Content Include="css\StyleSheet.css" />
+    <Content Include="Demos\ClientSide\CSS\StyleSheetNestedLoop.css" />
+    <Content Include="Demos\ClientSide\NestedLoop.aspx" />
+    <Content Include="Demos\ClientSide\NumberDivision.aspx" />
+    <Content Include="Demos\Layout\AbsoluteLayout.aspx" />
+    <Content Include="Demos\Layout\FloatLayout.aspx" />
+    <Content Include="Demos\Layout\RelativeLayout.aspx" />
+    <Content Include="JavaScript\JavaScript.js" />
     <Content Include="Web.config" />
     <Content Include="default.aspx" />
+    <Content Include="Demos\WebForm.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About\Contact.aspx.designer.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About\Contact.aspx.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="About\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="About\Resume.aspx.designer.vb">
+      <DependentUpon>Resume.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About\Resume.aspx.vb">
+      <DependentUpon>Resume.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\ClientSide\NestedLoop.aspx.designer.vb">
+      <DependentUpon>NestedLoop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\ClientSide\NestedLoop.aspx.vb">
+      <DependentUpon>NestedLoop.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\ClientSide\NumberDivision.aspx.designer.vb">
+      <DependentUpon>NumberDivision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\ClientSide\NumberDivision.aspx.vb">
+      <DependentUpon>NumberDivision.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\Layout\AbsoluteLayout.aspx.designer.vb">
+      <DependentUpon>AbsoluteLayout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\Layout\AbsoluteLayout.aspx.vb">
+      <DependentUpon>AbsoluteLayout.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\Layout\FloatLayout.aspx.designer.vb">
+      <DependentUpon>FloatLayout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\Layout\FloatLayout.aspx.vb">
+      <DependentUpon>FloatLayout.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\Layout\RelativeLayout.aspx.designer.vb">
+      <DependentUpon>RelativeLayout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\Layout\RelativeLayout.aspx.vb">
+      <DependentUpon>RelativeLayout.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -117,6 +190,13 @@
     </Compile>
     <Compile Include="default.aspx.vb">
       <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demos\WebForm.aspx.designer.vb">
+      <DependentUpon>WebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\WebForm.aspx.vb">
+      <DependentUpon>WebForm.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>

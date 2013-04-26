@@ -18,7 +18,7 @@
       <siteMapNode url="~/Demos/ServerSide/NumberDivision.aspx" title="Calc Number" description="Demo of ASP.NET Number Calculation" />
       <siteMapNode url="~/Demos/ServerSide/NestedLoop.aspx" title="Nested Loop" description="Demo of ASP.NET Nestd Loop" />
     </siteMapNode>
-    <siteMapNode url="~/About/About/Default.aspx" title="About Myself" description="My Cover Letter">
+    <siteMapNode url="~/About/Default.aspx" title="About Myself" description="My Cover Letter">
       <siteMapNode url="~/About/Resume.aspx" title="My Resume" description="My Detail Resume" />
       <siteMapNode url="~/About/Contact.aspx" title="Contact Me" description="My Contact Information" />
     </siteMapNode>
