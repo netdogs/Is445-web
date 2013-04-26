@@ -12,17 +12,15 @@ header h1 {
 
 nav {
 background-color: gray;
+padding: 10px 0px 10px 0px;
 }
-/*
+
 
     nav div ul li {
-        float: left;
         background-color: gray;
-        width:inherit;
+        padding:0 60px 0px 10px;
     }
-
-
-
+  
     nav div ul li a:visited, nav div ul li a:link {
         color: white;
     }
@@ -34,7 +32,7 @@ background-color: gray;
 nav div ul li.menuitem {
     clear: both;
 }
-    */
+    
 /*
 nav div ul li:nth-child(1){
     display: none
@@ -53,7 +51,7 @@ div.content {
     height:auto;
     float: right;
     border:10px 10px;
-    background-color:white;
+    background-color:White;
 }
 /* Rest of the Stuff*/
 

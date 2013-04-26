@@ -18,7 +18,11 @@
         </h1>
     </header>
     <nav>
-        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource"></asp:Menu>
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False" StaticSubMenuIndent="16px">
+            <DynamicHoverStyle CssClass="DHS" />
+            <DynamicMenuItemStyle CssClass="DMIS" />
+            <DynamicMenuStyle CssClass="DMS" />
+        </asp:Menu>
         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
     </nav>           
     <div class="sidenav">
@@ -27,11 +31,11 @@
             <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" ShowStartingNode="False" />
     </div>
     <div class="content">
-        <asp:SiteMapPath ID="SiteMapPath1" runat="server">
-            <CurrentNodeStyle ForeColor="Black" />
-            <NodeStyle ForeColor="Black" />
-            <PathSeparatorStyle ForeColor="Black" />
-            <RootNodeStyle ForeColor="Black" />
+        <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" Font-Size="0.8em" PathSeparator=" : ">
+            <CurrentNodeStyle ForeColor="#333333" />
+            <NodeStyle ForeColor="#7C6F57" Font-Bold="True" />
+            <PathSeparatorStyle ForeColor="#5D7B9D" Font-Bold="True" />
+            <RootNodeStyle ForeColor="#5D7B9D" Font-Bold="True" />
         </asp:SiteMapPath>
         <main>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">         
