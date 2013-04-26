@@ -1,10 +1,27 @@
-﻿body {
-    width:1024px;
-      margin:0 auto;
-      background-color:white;
+﻿html{
+font-size: 100%;
+} 
+
+body{
+font-size: 1em;
+font-family: georgia, serif;
+color: #444;
+background: white;
+padding: 0;
+margin: 0 auto;
 }
+
+h1{
+font-size: 1.125em;
+line-height: 1em;
+margin: 1em;
+font-weight: 300;
+}
+
+
 header h1 {
     text-align: center;
+
 }
 
 /* navigation
@@ -18,7 +35,8 @@ padding: 10px 0px 10px 0px;
 
     nav div ul li {
         background-color: gray;
-        padding:0 60px 0px 10px;
+        padding:5px 5px 5px 5px;
+
     }
   
     nav div ul li a:visited, nav div ul li a:link {
@@ -41,19 +59,23 @@ nav div ul li:nth-child(1){
 
 
 div.sidenav {
-    width:200px;
     float: left;
     background-color:lightgray;
 }
 
 div.content {
-    width: 804px;
     height:auto;
     float: right;
-    border:10px 10px;
-    background-color:White;
+    background-color:white;
+    min-height:350px;
+    border: 1px solid black;
 }
 /* Rest of the Stuff*/
+
+main {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 hr      
 	{
@@ -74,9 +96,8 @@ h1, h2 {
 
 main img.profile{
 	float:Right;
-	width:200px;
+    width:200px;
 	height:200px;
 }
 article {
-	width: 600px;
 	}

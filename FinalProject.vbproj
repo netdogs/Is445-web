@@ -86,11 +86,14 @@
     <Content Include="About\img\Robertospic.jpg" />
     <Content Include="About\Resume.aspx" />
     <Content Include="css\absolute.css" />
+    <Content Include="css\StyleSheet.css" />
+    <Content Include="css\StyleSheet640XSmall.css" />
+    <Content Include="css\StyleSheet768Small.css" />
     <Content Include="css\float.css" />
     <Content Include="css\relative.css" />
     <Content Include="css\reset.css" />
     <Content Include="css\static.css" />
-    <Content Include="css\StyleSheet.css" />
+    <Content Include="css\StyleSheet1024Large.css" />
     <Content Include="Demos\ClientSide\CSS\StyleSheetNestedLoop.css" />
     <Content Include="Demos\ClientSide\NestedLoop.aspx" />
     <Content Include="Demos\ClientSide\NumberDivision.aspx" />

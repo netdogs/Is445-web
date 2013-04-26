@@ -5,8 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head runat="server">
         <title></title>
-        <link href="css/reset.css" rel="stylesheet" />
+        <link href="css/reset.css" rel="stylesheet" type="text/css" />
         <link href="css/StyleSheet.css" rel="stylesheet" />
+        <link href="css/StyleSheet1024Large.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1024px)" />
+        <link href="css/StyleSheet768Small.css" rel="stylesheet" type="text/css" media="screen and (min-width: 768px) and (max-width: 1023px)" />
+        <link href="css/StyleSheet640XSmall.css" rel="stylesheet" type="text/css" media="screen and (Max-width: 767px)" />
         <asp:ContentPlaceHolder ID="head" runat="server">
         </asp:ContentPlaceHolder>
     </head>
