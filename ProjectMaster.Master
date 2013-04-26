@@ -18,19 +18,13 @@
         </h1>
     </header>
     <nav>
-        <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" StartingNode="false" DataSourceID="SiteMapDataSource" StaticEnableDefaultPopOutImage="False" Width="100px" >
-            <DataBindings>
-                <asp:MenuItemBinding DataMember="SiteMapNode" Depth="2" />
-            </DataBindings>
-            <DynamicHoverStyle BorderColor="#FF0066" />
-            <DynamicMenuItemStyle BackColor="Gray" CssClass="MainMenuItemStyle" />
-            <StaticMenuItemStyle CssClass="staticMenu" />
-        </asp:Menu>
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource"></asp:Menu>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
     </nav>           
     <div class="sidenav">
             <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource" ShowStartingNode="False">
             </asp:TreeView>
-            <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" />
+            <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" ShowStartingNode="False" />
     </div>
     <div class="content">
         <asp:SiteMapPath ID="SiteMapPath1" runat="server">

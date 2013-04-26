@@ -1,17 +1,19 @@
 ﻿body {
     width:1024px;
       margin:0 auto;
-      padding:0;
       background-color:white;
 }
 header h1 {
     text-align: center;
 }
 
-/* navigation*/
+/* navigation
+    */
+
 nav {
 background-color: gray;
 }
+/*
 
     nav div ul li {
         float: left;
@@ -32,7 +34,7 @@ background-color: gray;
 nav div ul li.menuitem {
     clear: both;
 }
-
+    */
 /*
 nav div ul li:nth-child(1){
     display: none
@@ -47,7 +49,7 @@ div.sidenav {
 }
 
 div.content {
-    width: 824px;
+    width: 804px;
     height:auto;
     float: right;
     border:10px 10px;
@@ -73,10 +75,10 @@ h1, h2 {
 }
 
 main img.profile{
-	float:left;
+	float:Right;
 	width:200px;
 	height:200px;
 }
 article {
-	width: 380px;
+	width: 600px;
 	}
