@@ -1,0 +1,13 @@
+﻿div.content {
+    border: 2px hidden;
+}
+aside
+    {
+    left:224px;
+    top:-256px;
+    position:relative;
+    }
+footer {
+    position: relative;
+    top: -275px;
+}

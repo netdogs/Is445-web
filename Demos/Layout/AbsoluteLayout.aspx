@@ -1,10 +1,16 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/ProjectMaster.Master" CodeBehind="AbsoluteLayout.aspx.vb" Inherits="FinalProject.AbsoluteLayout" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-    <link href="../../css/static.css" rel="stylesheet" />
-    <link href="../../css/absolute.css" rel="stylesheet" />
+
+         <link href="css/static1024Large.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1024px)" />
+        <link href="css/static768Small.css" rel="stylesheet" type="text/css" media="screen and (min-width: 768px) and (max-width: 1023px)" />
+        <link href="css/static640XSmall.css" rel="stylesheet" type="text/css" media="screen and (Max-width: 767px)" />
+        <link href="css/Absolute1024Large.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1024px)" />
+        <link href="css/Absolute768Small.css" rel="stylesheet" type="text/css" media="screen and (min-width: 768px) and (max-width: 1023px)" />
+        <link href="css/Absolute640XSmall.css" rel="stylesheet" type="text/css" media="screen and (Max-width: 767px)" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+       
     <header class="static">&lt;Header&gt;</header>
   <nav class="static">
     <ul>
@@ -13,7 +19,7 @@
 	  <li><a href="absolute.html">Absolute Layout</a></li>
       <li><a href="relative.html">Relative Layout</a></li>
       <li><a href="float.html">Float Layout</a></li>
-      <li><a href="flexbox.html">Flexbox Layout (Extra Credit)</a></li>
+
     </ul>
   </nav>
   <article class="static"> &lt;My Article&gt;

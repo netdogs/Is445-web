@@ -1,10 +1,10 @@
-﻿body
-{
+﻿div.content {
+    border: 2px hidden;
 }
 aside
     {
     left:424px;
-    top:-275px;
+    top:-256px;
     position:relative;
     }
 footer {

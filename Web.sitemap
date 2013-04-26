@@ -14,7 +14,7 @@
       <siteMapNode url="~/Demos/ClientSide/NumberDivision.aspx" title="Calc Number" description="Demo of JavaScript Number Calculation" />
       <siteMapNode url="~/Demos/ClientSide/NestedLoop.aspx" title="Nested Loop" description="Demo of JavaScript Nested Loop" />
     </siteMapNode>
-    <siteMapNode url="~/Demos/ServerSide.aspx" title="ServerSide Demos" description="Demo of ServerSide Projects">
+    <siteMapNode url="~/Demos/ServerSide/ServerSide.aspx" title="ServerSide Demos" description="Demo of ServerSide Projects">
       <siteMapNode url="~/Demos/ServerSide/NumberDivision.aspx" title="Calc Number" description="Demo of ASP.NET Number Calculation" />
       <siteMapNode url="~/Demos/ServerSide/NestedLoop.aspx" title="Nested Loop" description="Demo of ASP.NET Nestd Loop" />
     </siteMapNode>

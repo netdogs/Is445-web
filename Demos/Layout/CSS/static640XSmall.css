@@ -1,6 +1,9 @@
-﻿header.static 
+﻿main {
+    padding: 0;
+}
+header.static 
     {
-    width:824px;
+    width:618px;
     background-color: blue;
     text-align: center;
     color: white;
@@ -9,7 +12,7 @@
 
 Nav.static
     {
-    width:824px;
+    width:618px;
     background-color: green;
     text-align:center;
     height:30px;
@@ -27,19 +30,19 @@ Nav.static
 article.static
     {
     background-color: pink;
-    width:424px;
+    width:618px;
     color:white;
     }
     article section.static {
         background-color: brown;
-        margin:20px 0px 20px;
+        margin:20px 0px 0px;
         height:100px;
         color:white;
     }
 
 aside.static
     {
-    width: 400px;
+    width: 618px;
     background-color: blue;
     height: 275px;
     color:white
@@ -47,7 +50,7 @@ aside.static
 
 footer.static 
     {
-    width: 824px;
+    width: 618px;
     background-color: green;
     height:40px;
     text-align:center;

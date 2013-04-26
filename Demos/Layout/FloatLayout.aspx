@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/ProjectMaster.Master" CodeBehind="FloatLayout.aspx.vb" Inherits="FinalProject.FloatLayout" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="../../css/static.css" rel="stylesheet" />
+         <link href="css/static1024Large.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1024px)" />
+        <link href="css/static768Small.css" rel="stylesheet" type="text/css" media="screen and (min-width: 768px) and (max-width: 1023px)" />
+        <link href="css/static640XSmall.css" rel="stylesheet" type="text/css" media="screen and (Max-width: 767px)" />
     <link href="../../css/float.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
