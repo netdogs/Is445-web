@@ -83,13 +83,14 @@
   <ItemGroup>
     <Content Include="About\Contact.aspx" />
     <Content Include="About\Default.aspx" />
+    <Content Include="About\img\resume.css" />
     <Content Include="About\img\Robertospic.jpg" />
+    <Content Include="About\index.html" />
     <Content Include="About\Resume.aspx" />
-    <Content Include="css\absolute.css" />
     <Content Include="css\StyleSheet.css" />
     <Content Include="css\StyleSheet640XSmall.css" />
     <Content Include="css\StyleSheet768Small.css" />
-    <Content Include="css\float.css" />
+    <Content Include="Demos\Layout\CSS\float.css" />
     <Content Include="css\reset.css" />
     <Content Include="Demos\ClientSide\ClientSide.aspx" />
     <Content Include="Demos\Demo.aspx" />

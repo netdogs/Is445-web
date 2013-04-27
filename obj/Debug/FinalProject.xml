@@ -6,7 +6,55 @@ FinalProject
 </name>
 </assembly>
 <members>
-<member name="F:FinalProject.ProjectMaster.head">
+<member name="F:FinalProject.NumberDivision1.DivisionNumber">
+	<summary>
+DivisionNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FinalProject.NumberDivision1.DivisionCalculate">
+	<summary>
+DivisionCalculate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FinalProject.NumberDivision1.Results">
+	<summary>
+Results control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FinalProject.NestedLoop1.DivisionNumber">
+	<summary>
+DivisionNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FinalProject.NestedLoop1.DivisionCalculate">
+	<summary>
+DivisionCalculate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FinalProject.NestedLoop1.Results">
+	<summary>
+Results control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FinalProject.ProjectMaster.head">
 	<summary>
 head control.
 </summary>

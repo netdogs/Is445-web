@@ -1,0 +1,122 @@
+.sidenav {
+    display: none;
+}
+p {
+    font-size: 1em;
+}
+.address {
+    float: right;
+    background-color:orange;
+}
+
+header div {
+    padding:40px 0px 0px 0px;
+    
+}
+
+header div h1.Name {
+    font-size: 3em;
+    float:left;
+    clear:both;
+    background-color:White;
+    margin:0px 0px 0px 80px;
+    border:0px;
+    padding:0px;
+}
+
+header div h1.Title {
+    font-size: 1.5em;
+    font-style:italic;
+    float:left;
+    clear:left;
+    background-color:white;
+    padding:0px;
+    border: 0px;
+    margin: 0px 0px 0px 80px;
+
+}
+header div p {    
+    position:relative;
+    top: -35px;
+    margin:0px 70px 0px 0px;
+    font-size: 1em;
+    float:right;
+    background-color:white;
+}
+
+H2 {
+    font-size:1.5em;
+    padding: .15em .15em ;
+    border: 0 ;
+    margin:0 ;
+    float:left;
+    width: 150px;
+}
+
+H3 {
+    font-size: 1.25em;
+        padding: 0;
+    border: 0 ;
+    margin:0 ;
+    font-weight:bold;
+    
+}
+
+H4 {
+    font-size:.85em;
+       font-style: italic;
+           padding: 0;
+    border: 0 ;
+    margin:0 ;
+}
+
+
+div.content {
+    width: 1002px;
+}
+
+
+
+div.Section {
+    position:relative;
+    clear: both;
+    float:left;
+    background-color:white;
+    position:relative;
+    border-bottom:1px solid black;
+    padding: 15px 0;
+    
+}
+div.SubSection {
+    position:relative;
+    padding-top:.6em;
+    float:right;
+    clear:right;
+    width:800px;
+    background-color:white;
+    padding-right:.6em;
+    border:0px solid;
+
+}
+    div.SubSection h2 {
+        position:relative;
+        font-style:italic;
+        top: -60px;
+        left: -400;
+        float: right;
+        font-size:1.25em;
+        font-weight:bold;
+        width:200px;
+    }
+.right {
+    position:relative;
+    float:right;
+}
+I {
+    font-style: italic;
+    font-size:.75em;
+}
+div.Section li {
+    list-style-type:disc;
+    margin-left:20px
+}
