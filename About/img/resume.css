@@ -1,6 +1,145 @@
+.main {
+    padding-top: 50px;
+}
+
+
+div.content {
+    width: 99.55%;
+}
 .sidenav {
     display: none;
 }
+
+
+div.resume {
+    margin: 20px, 20px;
+}
+/*Resume Section*/
+div.Section {
+    border-top: 1px solid black;
+    padding: 10px 0px;
+    margin:10px 0px;
+    clear:both;
+}
+div.SectionHeader {
+    float: left;
+    display:block;
+    width:20%;
+    max-width: 200px;
+    min-width: 100px;
+    padding-right:10px;
+}
+div.SectionBody {
+    display:block;
+    float: left;
+    width:75%;
+}
+div.Details {
+    padding-bottom: 10px;
+}
+div.Skills {
+    display:block;
+    width:48%;
+    float:left;
+    padding-bottom:10px;
+}
+
+
+    div.Skills:nth-child(2n+2) {
+        border-left:1px solid black;
+        margin-left:5px;
+        padding-left:5px;
+    }
+        div.Skills:nth-child(2n+3) {
+clear:left;
+    }
+div.SectionHeader h2 {
+    font-size: 1.75em;
+}
+H3 {
+    font-weight:bold;
+    font-style:italic;
+    font-size:1.15em;
+
+}
+.FloatRight {
+    float: right;
+    display:block;
+}
+.FloatLeft {
+    display:block;
+    float: left;
+}
+.Location {display:block;
+    clear: both;
+    padding-bottom:5px;
+    font-weight:bold;
+    font-size:.85em;
+}
+/*Header Section*/
+div.Name {
+    display: block;
+    width: 65%;
+    float:left;
+}
+div.Address {
+    display: block;
+    width: 30%;
+    float: left;
+    text-align:right;
+     padding: 30px 5px 0px 0px;
+}
+h1.Name {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    
+}
+h1.Title {
+    font-style:italic;
+    font-size:2em;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+/*For Smaller 767 Screens*/
+@media all and (max-width: 767px) and (min-width: 100px) {
+    div.Skills {
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+        div.Skills:nth-child(2n+2) {
+            border-left: 0px solid black;
+            margin-left: 0px;
+            padding-left: 0px;
+        }
+        div.SectionHeader h2 {
+    font-size: 1.5em;
+}
+        h1.Title {
+    font-style:italic;
+    font-size:1.5em;
+    width:100%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-align:center;
+}
+    div.Name {
+        width: 100%;
+    }
+    div.Address {
+        clear: both;
+        width:100%;
+        text-align:center;
+    }
+}
+
+/*applyes to */
+
+/*
 p {
     font-size: 1em;
 }
@@ -49,8 +188,7 @@ H2 {
     padding: .15em .15em ;
     border: 0 ;
     margin:0 ;
-    float:left;
-    width: 150px;
+
 }
 
 H3 {
@@ -90,9 +228,9 @@ div.Section {
 div.SubSection {
     position:relative;
     padding-top:.6em;
-    float:right;
-    clear:right;
-    width:800px;
+    float:left;
+    clear:none;
+    width:350px;
     background-color:white;
     padding-right:.6em;
     border:0px solid;
@@ -106,17 +244,15 @@ div.SubSection {
         float: right;
         font-size:1.25em;
         font-weight:bold;
-        width:200px;
     }
 .right {
     position:relative;
     float:right;
 }
-I {
-    font-style: italic;
-    font-size:.75em;
+
+
+
+.SubSection {
+    border:1px solid;
 }
-div.Section li {
-    list-style-type:disc;
-    margin-left:20px
-}
+    */

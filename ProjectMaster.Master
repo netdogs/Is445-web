@@ -24,8 +24,9 @@
     <nav>
         <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False" StaticSubMenuIndent="16px">
             <DynamicHoverStyle CssClass="DHS" />
-            <DynamicMenuItemStyle CssClass="DMIS" />
-            <DynamicMenuStyle CssClass="DMS" />
+            <DynamicMenuItemStyle CssClass="DMIS" BackColor="#FF0066" />
+            <DynamicMenuStyle CssClass="DMS" BackColor="#9900CC" />
+            <DynamicSelectedStyle BackColor="#99FF33" />
         </asp:Menu>
         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
     </nav>           
@@ -41,11 +42,11 @@
             <PathSeparatorStyle ForeColor="#5D7B9D" Font-Bold="True" />
             <RootNodeStyle ForeColor="#5D7B9D" Font-Bold="True" />
         </asp:SiteMapPath>
-        <main>
+        <div class="main">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">         
         
             </asp:ContentPlaceHolder>
-        </main>
+        </div>
     </div>
     </form>
 </body>
